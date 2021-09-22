@@ -50,3 +50,18 @@
     background-color:yellow;
     color:black;
   }
+
+  .heading1:hover{
+    text-shadow: 2px 1px;
+    color:springgreen;
+    border-style: solid;
+    border-color:skyblue;
+    width: 200px;
+  }
+  .heading2:hover{
+    text-shadow: 2px 1px;
+    color:salmon;
+    border-style: dashed;
+    border-color:sienna;
+    width: 200px;   
+}
