@@ -28,3 +28,25 @@
     background-color:snow;
     color: red;
 }
+#content {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+  }
+  
+  #content td, #content th {
+    border: 1.5px solid black;
+    padding: 5px;
+    margin: auto;
+  }
+  
+  #content tr:nth-child(even){background-color:wheat;}
+  #content tr:nth-child(odd){background-color:seashell;}
+  
+  #content th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:yellow;
+    color:black;
+  }
